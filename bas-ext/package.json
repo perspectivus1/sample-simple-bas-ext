@@ -1,0 +1,19 @@
+{
+  "name": "test-simple-ext",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publishExt": "wex deploy -e ext-eyal.cry10cf.int.applicationstudio.cloud.sap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/i034929/test-simple-ext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sapse/business-application-studio-extension-management": "^0.6.1"
+  }
+}
