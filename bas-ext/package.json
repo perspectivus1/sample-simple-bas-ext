@@ -1,19 +1,19 @@
 {
   "name": "test-simple-ext",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "SAP Business Application Studio sample simple extension",
+  "homepage": "https://community.sap.com/topics/business-application-studio",
   "scripts": {
-    "publishExt": "wex deploy -e ext-eyal.cry10cf.int.applicationstudio.cloud.sap",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publishExt": "wex deploy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.wdf.sap.corp/i034929/test-simple-ext.git"
+    "url": "https://github.com/perspectivus1/test-simple-ext.git",
+    "directory": "bas-ext"
   },
-  "author": "",
+  "author": "SAP",
   "license": "ISC",
   "dependencies": {
-    "@sapse/business-application-studio-extension-management": "^0.6.1"
+    "@sapse/business-application-studio-extension-management": "^0.6.3"
   }
 }

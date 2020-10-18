@@ -1,14 +1,14 @@
 {
-	"name": "vscode-ext",
-	"displayName": "vscode-ext",
+	"name": "hello-bas",
+	"displayName": "hello-bas",
 	"description": "",
-	"publisher": "eyal",
+	"publisher": "SAP",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.50.0"
 	},
 	"repository": {
-		"url": "https://github.wdf.sap.corp/i034929/test-simple-ext",
+		"url": "https://github.com/perspectivus1/sample-simple-bas-ext",
 		"directory": "vscode-ext"
 	},
 	"categories": [
@@ -22,7 +22,7 @@
 		"commands": [
 			{
 				"command": "vscode-ext.helloWorld",
-				"title": "Hello Eyal"
+				"title": "Hello BAS"
 			}
 		]
 	},
@@ -30,9 +30,7 @@
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"lint": "eslint src --ext ts",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
-		"test": "node ./out/test/runTest.js"
+		"watch": "tsc -watch -p ./"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.50.0",
